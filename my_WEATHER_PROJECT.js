@@ -26,6 +26,9 @@ try{
   alert("City not found ❌ Please enter a valid city name.");
   return;
 }
+    if (!Response.ok) {
+  throw new Error("Network response failed");
+}
   console.log(data_retrived);
 
   document.querySelector('.CITY_NAME').innerHTML = city;
@@ -80,3 +83,4 @@ catch(error){
   console.log(" OOPS ERROR OCCURED DURING FETCHING OF DATA ");
 }
 }
+
