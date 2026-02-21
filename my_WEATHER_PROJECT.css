@@ -1,0 +1,156 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.BOX{
+  
+  width: 85%;
+  max-width: 470px;
+  margin: 100px auto 0;
+  border-radius: 30px;
+  padding: 40px 35px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("back.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  
+}
+body{
+  
+}
+
+.CITY{
+  display: flex;
+  gap: 10px;
+}
+.MIST img{
+  width: 50px;
+  height: 50px;
+  margin-inline-start: 10px;
+}
+.TYPE_OF_MIST{
+  display: flex;
+  gap: 12px;
+}
+.HUMIDITY{
+  display: flex;
+  gap: 12px;
+}
+.MAIN_AQI_MATERIAL{
+    display: flex;
+  gap: 12px;
+}
+.PMS{
+    display: flex;
+  gap: 12px;
+}
+.PMS1{
+    display: flex;
+  gap: 12px;
+}
+.WIND_TYPE{
+      display: flex;
+  gap: 10px;
+}
+.WIND img{
+    width: 50px;
+  height: 50px;
+}
+.MAIN_AQI_MATERIAL{
+        display: flex;
+  gap: 10px;
+}
+.AIR_QUALITY{
+          display: flex;
+  gap: 10px;
+}
+.TEMPERATURE{
+    display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.CONTENT_ROW{
+  display: flex;
+
+}
+.WEATHER_TYPE{
+  margin-top: 5px;
+  
+}
+.MIST  {
+  display: flex;
+}
+.WIND{
+  display: flex;
+}
+.MIST_WIND{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.CITY{
+  margin-top: 5px;
+}
+.AQI_CONTAINER{
+    max-width: 470px;
+  margin: 100px auto 0;
+  border-radius: 30px;
+  padding: 40px 35px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(86, 24, 187);
+}
+.PMS_RECORD{
+
+}
+.aqii{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  gap: 40px;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+
+.search input{
+  flex: 1;             
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+
+}
+.search button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.8s;
+}
+.search button img{
+  width: 25px;
+  height: 25px;
+}
+.search button :hover{
+  background-color: azure;
+}
+.btnss{
+  display: flex;
+
+  gap: 10px;
+}
